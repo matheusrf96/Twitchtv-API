@@ -1,0 +1,77 @@
+html, body{
+  color: #373737;
+  background-color: #d9d9d9;
+  margin-top: 25px;
+}
+
+textarea:focus, input:focus, button:focus{
+  outline: none;
+}
+
+.content{
+  margin-top: 10px;
+  border: solid;
+  border-radius: 2px;
+  background-color: #f4f4f4;
+}
+
+#mainTitle{
+  margin-top: 10px;
+}
+
+#output{
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.added{
+  margin-top: 5px;
+  list-style-type: none;
+  border: solid;
+}
+
+.added:hover{
+  border-color: #f7b733;
+}
+
+.avatar{
+  height: 70px;
+  width: 70px;
+  padding-left: 15px;
+}
+
+.textContent{
+  align: left;
+}
+
+#offline{
+  background-color: #ff3b3f;
+}
+
+#online{
+  background-color: #3cc47c;
+}
+
+.streaLink{
+  color: #373737;
+}
+
+.streamLink:link{
+  color: #373737;
+  text-decoration: none;
+}
+
+.streamLink:visited{
+  color: #373737;
+  text-decoration: none;
+}
+
+.streamLink:hover{
+  color: #373737;
+  text-decoration: none;
+}
+
+.streamLink:active{
+  color: #373737;
+  text-decoration: none;
+  background-color: #f7b733;
+}
